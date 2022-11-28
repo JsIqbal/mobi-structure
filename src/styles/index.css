@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* || VARIABLES */
+
+:root {
+  /* COLORS */
+  --BGCOLOR: #0F172A;
+  --BORDER-COLOR: #FFF;
+  --COLOR: #FFF;
+  --ERROR: firebrick;
+  --INACTIVE: lightgray;
+  --LINK-COLOR: whitesmoke;
+  --LINK-HOVER: rgba(245, 245, 245, 0.9);
+  --NOTE-BGCOLOR: hsla(240, 64%, 27%, 0.65);
+  --STATUS-COMPLETE: limegreen;
+  --STATUS-OPEN: firebrick;
+  --TABLE-BGCOLOR: #FFF;
+  --TABLE-COLOR: #000;
+}
+
+.public {
+    background: url(/src/images/login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+    background-attachment: fixed;
+    height: 100vh;
+    /* background: linear-gradient(180deg, #980d9b 0%, rgba(190, 65, 88, 0.7) 50%); */
+    color: #FFF!important;
+}
+
+/* ------------------my reach */
+/* Start of App component */
+.login-component {
+    background: url(/src/images/login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+    background-attachment: fixed;
+    height: 100vh;
+    /* background: linear-gradient(180deg, #980d9b 0%, rgba(190, 65, 88, 0.7) 50%); */
+}
+
+.recharts-text {
+    font-size: 14px!important;
+}
+
+.recharts-wrapper {
+    margin-bottom: 20px!important;
+}
+
+h4, h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: rgb(76, 76, 76);
+}
+
+.frgt-ps {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.list a {
+    text-decoration: none;
+    padding: 5px 0px;
+    width: 100px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+thead {
+    background: #144D43;
+    color: white;
+}
+
+.description {
+    height: 100px;
+}
+
+.button {
+    width: auto!important;
+}
+
+.login-box {
+    padding: 10px 10px;
+    border: 1px solid #e7d8d8;
+    box-shadow: rgb(0 0 0 / 23%) 0px 17px 23px 0px;
+    border: 0;
+    display: flex;
+    position: relative;
+    font-size: .875rem;
+    min-width: 0;
+    word-wrap: break-word;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    flex-direction: column;
+    border-radius: 28px;
+    margin-top: 60px!important;
+}
+
+.login-form-input {
+    width: 95%;
+    margin: 10px;
+}
+
+.login-header {
+    margin: 30px 0 20px 0px;
+}
+
+.login-form-btn {
+    height: 36px;
+    width: 113px;
+    background-color: rgb(29, 190, 203)!important;
+    font-weight: 500;
+    font-size: 13px;
+    color: #fff!important;
+}
+
+.login-form-btn:hover {
+    box-shadow: 0 14px 26px -12px rgb(153 153 153 / 42%), 0 4px 23px 0px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(153 153 153 / 20%);
+    background-color: rgb(29, 190, 203);
+    color: #fff!important;
+}
+
+.registration {
+    background-color: #fdb934 !important;
+}
+
+.login-link {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+/* ------------ */
+
+/* Registar */
+.register-component {
+    background: url(/src/images/login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+    background-attachment: fixed;
+}
+
+.register-box {
+    padding: 10px 10px;
+    border: 1px solid #e7d8d8;
+    box-shadow: rgb(0 0 0 / 23%) 0px 17px 23px 0px;
+    border: 0;
+    display: flex;
+    position: relative;
+    font-size: .875rem;
+    min-width: 0;
+    word-wrap: break-word;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: 60px!important;
+    margin-bottom: 60px;
+}
+
+.register-main {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.multi-drop {
+    width: 100%;
+    border: dashed;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 100px;
+    border-color: #1DBECB;
+    border-width: 2px;
+    border-radius: 10px;
+    background-color: #ffff;
+}
+
+.image-up {
+    position: absolute;
+    transform: translate(75%, 100%);
+}
+
+.term-link {
+    text-decoration: none;
+}
+/* ----- */

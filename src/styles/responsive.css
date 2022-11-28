@@ -1,0 +1,11 @@
+@media (min-width:320px) and (max-width:575px) {
+    .login-box {
+        margin-left: 15px!important;
+        min-width: 300px!important;
+        overflow: hidden;
+    }
+    .login-form-btn {
+        font-size: 10px!important;
+        float: left;
+    }
+}
