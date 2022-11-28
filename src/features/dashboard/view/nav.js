@@ -1,53 +1,74 @@
+import { Link } from "react-router-dom";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
 const NavBar = () => {
     return (
-        <nav id="navigation">
-            <img src="https://pbs.twimg.com/profile_images/1217213081115406338/Y4zpmwte_400x400.jpg" class="nav-bg" alt="logo" />
-            <ul className="overflow-auto">
+        // <nav id="navigation">
+            // <ul className="overflow-auto">
+            //     <li>
+            //         <Link className="icon" to='/my-dash' >
+            //             <i className="fas fa-desktop"></i><p className="icon-title">Dashboard</p>
+            //         </Link>
+            //     </li>
+            //     <li>
+            //         <Link to='/my-dash/profile' className="icon">
+            //             <i className="fas fa-users"></i><p className="icon-title">Profile</p>
+            //         </Link>
+            //     </li>
+            //     <li>
+            //         <Link to='/my-dash/campaign' className="icon">
+            //             <i className="fas fa-users"></i><p className="icon-title">Campaign</p>
+            //         </Link>
+            //     </li>
+            //     <li>
+            //         <Link to='/my-dash/report' className="icon">
+            //             <i className="fas fa-users"></i><p className="icon-title">Report</p>
+            //         </Link>
+            //     </li>
+            // </ul>
+        // </nav>
+        <Navbar bg="dark" variant="dark">
+            <Container className='container' >
+                <Nav className="ms-auto" style={{height: "100vh"}}>
+                {/* <Link className="icon" to='/my-dash' >
+                       <i className="fas fa-desktop"></i><p className="icon-title">Dashboard</p>
+                  </Link>
+                <Link to='/my-dash/profile' className="icon">
+                        <i className="fas fa-users"></i><p className="icon-title">Profile</p>
+                    </Link>
+                <Link to='/my-dash/campaign' className="icon">
+                        <i className="fas fa-users"></i><p className="icon-title">Campaign</p>
+                    </Link>
+                    <Link to='/my-dash/report' className="icon">
+                        <i className="fas fa-users"></i><p className="icon-title">Report</p>
+                    </Link> */}
+                    <ul className="overflow-auto">
                 <li>
-                    <a className="icon" href="_">
-                        <i class="fas fa-desktop"></i><p class="icon-title">Dashboard</p>
-                        
-                    </a>
+                    <Link className="icon" to='/my-dash' >
+                        <i className="fas fa-desktop"></i><p className="icon-title">Dashboard</p>
+                    </Link>
                 </li>
-
                 <li>
-                    <a href="_" className="icon">
-                        <i class="fas fa-users"></i><p class="icon-title">Customers</p>
-                    </a>
+                    <Link to='/my-dash/profile' className="icon">
+                        <i className="fas fa-users"></i><p className="icon-title">Profile</p>
+                    </Link>
                 </li>
-
                 <li>
-                    <a href="_" className="icon">
-                    <i class="fas fa-file-powerpoint"></i><p class="icon-title">Projects</p>
-                    </a>
+                    <Link to='/my-dash/campaign' className="icon">
+                        <i className="fas fa-users"></i><p className="icon-title">Campaign</p>
+                    </Link>
                 </li>
-
                 <li>
-                    <a href="_" className="icon">
-                    <i class="fas fa-file-powerpoint"></i><p class="icon-title">Orders</p>
-                    </a>
+                    <Link to='/my-dash/report' className="icon">
+                        <i className="fas fa-users"></i><p className="icon-title">Report</p>
+                    </Link>
                 </li>
-
-                <li>
-                    <a href="_" className="icon">
-                    <i class="fas fa-file-invoice-dollar"></i><p class="icon-title">Income</p>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="_" className="icon">
-                    <i class="fas fa-user"></i><p class="icon-title">Account</p>
-                    </a>
-                </li>
-
-                <li>
-                    <a style={{marginBottom: "53px"}} href="_" className="icon">
-                    <i class="fas fa-sign-out-alt"></i><p class="icon-title">Logout</p>
-                    </a>
-                </li>
-
             </ul>
-        </nav>
+                </Nav>
+            </Container>
+        </Navbar>
     );
 }
  

@@ -1,0 +1,13 @@
+.button-custom {
+    height: 36px;
+    text-align: left;
+    border-radius: 0px;
+    border: 1px solid rgb(29, 190, 203);
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 190, 203);
+    font-family: Axiata;
+    font-weight: 500;
+    font-size: 13px;
+    margin: 5px;
+    padding: 8px 10px 8px 8px;
+}

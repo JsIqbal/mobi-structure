@@ -1,6 +1,3 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import { 
     ResponsiveContainer,
     Area,
@@ -18,19 +15,7 @@ import Logout from './logout';
 const DashBoardMain = () => {
     return (
         <main id="main-section">
-            <header class="header">
-                {/* header */}
-                <Navbar bg="dark" variant="dark">
-                    <Container className='container' >
-                    <Navbar.Brand href="#home">Dashboard</Navbar.Brand>
-                    <Nav className="ms-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Logout className="ms-auto" />
-                    </Nav>
-                    </Container>
-                </Navbar>
-            </header>
+            
 
             <section class="dash-card">
                

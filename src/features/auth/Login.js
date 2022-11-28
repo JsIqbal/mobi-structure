@@ -32,12 +32,12 @@ function Login() {
                                     if (values.username===fakeData.admin.username && values.password===fakeData.admin.password) {
                                         localStorage.setItem("access_token", adminToken);
 
-                                        // navigate("/dash", { 
-                                        //     state: { someData: adminToken } 
-                                        // });
-                                        navigate("/dash/my-dash", { 
+                                        navigate("/dash", { 
                                             state: { someData: adminToken } 
                                         });
+                                        // navigate("/dash/my-dash", { 
+                                        //     state: { someData: adminToken } 
+                                        // });
                                     }
 
                                     if (values.username!==fakeData.admin.username && values.password!==fakeData.admin.password) {

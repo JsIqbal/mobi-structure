@@ -10,6 +10,7 @@ import { Provider } from 'react-redux'
 import('bootstrap/dist/css/bootstrap.min.css');
 import('./styles/dashboard.css');
 import('./styles/responsive.css');
+import('./styles/campaign.css')
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
