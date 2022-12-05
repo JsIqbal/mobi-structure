@@ -35,9 +35,6 @@ function Login() {
                                         navigate("/dash", { 
                                             state: { someData: adminToken } 
                                         });
-                                        // navigate("/dash/my-dash", { 
-                                        //     state: { someData: adminToken } 
-                                        // });
                                     }
 
                                     if (values.username!==fakeData.admin.username && values.password!==fakeData.admin.password) {
@@ -152,6 +149,7 @@ function Login() {
                                                 </div>
                                             </div>
                                         </div>
+                                
                                 </Form>
                             );
                         }}

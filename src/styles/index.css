@@ -205,3 +205,17 @@ thead {
     text-decoration: none;
 }
 /* ----- */
+.welcome-default {
+    background: url(/src/images/login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+    background-attachment: fixed;
+    height: 100vh;
+    /* background: linear-gradient(180deg, #980d9b 0%, rgba(190, 65, 88, 0.7) 50%); */
+    color: #FFF!important;
+}
+
+.welcome-default h1 {
+    color: #FFF!important;
+}

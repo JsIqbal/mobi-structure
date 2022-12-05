@@ -8,7 +8,7 @@ import NotesList from './features/notes/NotesList'
 import UsersList from './features/users/UsersList'
 import Registration from './features/auth/register';
 import ForgotPassword from './features/auth/forgot-pass';
-import Dashboard from './features/dashboard/dashboard';
+import Dashboard from './features/dashboard/dashboard-layout';
 import Profile from './features/dashboard/view/profile';
 import Campaign from './features/dashboard/view/campaign/campain-layout';
 import Report from './features/dashboard/view/report';

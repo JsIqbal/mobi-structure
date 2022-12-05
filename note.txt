@@ -1,0 +1,9 @@
+by default sms will be choosed as a view. 
+    content: numberlist form
+    tamplate sms form through a button
+
+Report:
+    as a user -> campaign overall Report
+
+Rate card:
+    username, bl, gp, robi, airtel

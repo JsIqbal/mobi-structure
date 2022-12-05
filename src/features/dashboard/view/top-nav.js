@@ -22,7 +22,7 @@ export default function TopNav () {
                 </Navbar.Brand>
                 <Nav className="ms-auto">
                         <Button>
-                            Credits LKR.220.00 <i class="fa-solid fa-rotate-right"></i>
+                            Credits LKR.220.00 <i className="fa-solid fa-rotate-right"></i>
                         </Button>
                     <Logout className="ms-auto" />
                 </Nav>
